@@ -17,7 +17,7 @@ Steps:
 05. Install requirements: ```pip install -r requirements.txt ```
 06. Run server: ```python manage.py runserver ```
 07. Run celery: ```celery -A api workder -l info ```
-08. Start rabbitmq, mongodb and configure them in settings.py
+08. Start rabbitmq, mongodb and configure them in settings.py and  ```python manage.py makemigrations``` and  ```python manage.py migrate```
 09. Create Celery tasks in tasks.py
 10. Hello World API endpoint: ```127.0.0.1:8000/api/v1/hello/ ```
 11. Swagger API Docs endpoint: ```127.0.0.1:8000/api/v1/docs/ ```
