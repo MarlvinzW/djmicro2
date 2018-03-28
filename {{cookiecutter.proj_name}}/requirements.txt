@@ -1,7 +1,0 @@
-Django
-djangorestframework
-djongo
-psycopg2
-gunicorn
-requests
-django-rest-swagger
