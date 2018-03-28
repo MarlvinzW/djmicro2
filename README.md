@@ -19,3 +19,5 @@ Steps:
 07. celery -A api workder -l info
 08. Start rabbitmq, mongodb and configure them in settings.py
 09. Create Celery tasks in tasks.py
+10. Hello World API endpoint: 127.0.0.1:8000/api/v1/hello/
+11. Swagger API Docs endpoint: 127.0.0.1:8000/api/v1/docs/
