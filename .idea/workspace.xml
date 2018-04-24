@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b7b3e6a-1eae-4434-b770-7a5a730814d8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/pika_config.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/publisher.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/subscriber.py" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/tasks.py" afterPath="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/tasks/tasks.py" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/views.py" afterPath="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/views.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="publisher.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/publisher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscriber.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/subscriber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/tasks/tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cc_project_app_drf/cookiecutter.json" />
+        <option value="$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/gitignore.txt" />
+        <option value="$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/requirements.txt" />
+        <option value="$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/{{cookiecutter.proj_name}}/serializers.py" />
+        <option value="$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/{{cookiecutter.proj_name}}/api_urls.py" />
+        <option value="$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/urls.py" />
+        <option value="$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/{{cookiecutter.proj_name}}/celery.py" />
+        <option value="$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/{{cookiecutter.proj_name}}/views.py" />
+        <option value="$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/{{cookiecutter.proj_name}}/tests/test_api.py" />
+        <option value="$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/settings.py" />
+        <option value="$PROJECT_DIR$/tessss/product/urls.py" />
+        <option value="$PROJECT_DIR$/tessss/product/settings.py" />
+        <option value="$PROJECT_DIR$/tessss/product/manage.py" />
+        <option value="$PROJECT_DIR$/tessss/product/product/wsgi.py" />
+        <option value="$PROJECT_DIR$/tessss/product/product/celery.py" />
+        <option value="$PROJECT_DIR$/tessss/product/product/settings.py" />
+        <option value="$PROJECT_DIR$/tessss/product/product/celery_conf.py" />
+        <option value="$PROJECT_DIR$/project_name/project_name/serializers.py" />
+        <option value="$PROJECT_DIR$/project_name/urls.py" />
+        <option value="$PROJECT_DIR$/project_name/project_name/views.py" />
+        <option value="$PROJECT_DIR$/project_name/settings.py" />
+        <option value="$PROJECT_DIR$/project_name/project_name/api_urls.py" />
+        <option value="$PROJECT_DIR$/project/api/celery.py" />
+        <option value="$PROJECT_DIR$/project/api/__init__.py" />
+        <option value="$PROJECT_DIR$/project/project/__init__.py" />
+        <option value="$PROJECT_DIR$/project/api/tasks.py" />
+        <option value="$PROJECT_DIR$/project/api/views.py" />
+        <option value="$PROJECT_DIR$/project/project/settings.py" />
+        <option value="$PROJECT_DIR$/products/api/celery.py" />
+        <option value="$PROJECT_DIR$/products/manage.py" />
+        <option value="$PROJECT_DIR$/products/.gitignore" />
+        <option value="$PROJECT_DIR$/products/api/serializers.py" />
+        <option value="$PROJECT_DIR$/products/api/wsgi.py" />
+        <option value="$PROJECT_DIR$/products/api/tasks.py" />
+        <option value="$PROJECT_DIR$/products/api/urls.py" />
+        <option value="$PROJECT_DIR$/products/api/models.py" />
+        <option value="$PROJECT_DIR$/products/api/apps.py" />
+        <option value="$PROJECT_DIR$/products/api/views.py" />
+        <option value="$PROJECT_DIR$/products/api/settings.py" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.proj_name}}/requirements.txt" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.proj_name}}/api/urls.py" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.proj_name}}/manage.py" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.proj_name}}/cookiecutter.json" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/pika.py" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/subscriber.py" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/__init__.py" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/publisher.py" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/pika_config.py" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/subscriber.py" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/tasks/tasks.py" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.service_name}}/api/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1426" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>Ignore</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyUnusedLocalInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="djmicro2_main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djmicro2_main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djmicro2_main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djmicro2_main" type="462c0819:PsiDirectoryNode" />
+              <item name="{{cookiecutter.service_name}}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djmicro2_main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djmicro2_main" type="462c0819:PsiDirectoryNode" />
+              <item name="{{cookiecutter.service_name}}" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="add_unversioned_files" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Development World\Development World Resources Backup 22-4-18\Projects\Back End\djmicro2_main\{{cookiecutter.service_name}}\api\messaging" />
+      <recent name="E:\Development World\Development World Resources Backup 22-4-18\Projects\Back End\djmicro2_main\{{cookiecutter.service_name}}\api\tasks" />
+      <recent name="E:\Development World\Development World Resources Backup 14-1-18\Projects\Back End\celery_2" />
+      <recent name="E:\Development World\Development World Resources Backup 14-1-18\Projects\Back End\celery_2\project\project" />
+      <recent name="E:\Development World\Development World Resources Backup 14-1-18\Projects\Back End\celery_2\tessss\product\product" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Development World\Development World Resources Backup 14-1-18\Projects\Back End\celery_2\{{cookiecutter.proj_name}}" />
+      <recent name="E:\Development World\Development World Resources Backup 14-1-18\Projects\Back End\celery_2\products\api" />
+      <recent name="E:\Development World\Development World Resources Backup 14-1-18\Projects\Back End\celery_2\products" />
+      <recent name="E:\Development World\Development World Resources Backup 14-1-18\Projects\Back End\celery_2\project" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b7b3e6a-1eae-4434-b770-7a5a730814d8" name="Default" comment="" />
+      <created>1522239403643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522239403643</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added">
+      <created>1522244045006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522244045006</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added">
+      <created>1522244056042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522244056042</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added">
+      <created>1522257458754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522257458754</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added">
+      <created>1522258458278</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522258458278</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added">
+      <created>1522258828190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522258828190</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added">
+      <created>1522258917263</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522258917263</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29392973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25079873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22075911" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26124704" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12480127" sideWeight="0.4972889" order="0" side_tool="false" content_ui="combo" x="1127" y="59" width="305" height="1291" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13553259" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12981082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399361" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.145469" sideWeight="0.50271106" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16653419" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/{{cookiecutter.proj_name}}/tests/factories.py" />
+    <entry file="file://$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/{{cookiecutter.proj_name}}/tests/test_api.py" />
+    <entry file="file://$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/{{cookiecutter.proj_name}}/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/urls.py" />
+    <entry file="file://$PROJECT_DIR$/tessss/product/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/tessss/product/urls.py" />
+    <entry file="file://$PROJECT_DIR$/tessss/product/manage.py" />
+    <entry file="file://$PROJECT_DIR$/cc_project_app_drf/{{cookiecutter.proj_name}}/settings.py" />
+    <entry file="file://$PROJECT_DIR$/tessss/product/product/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/tessss/product/product/urls.py" />
+    <entry file="file://$PROJECT_DIR$/tessss/product/product/settings.py" />
+    <entry file="file://$PROJECT_DIR$/tessss/product/product/celery_conf.py" />
+    <entry file="file://$PROJECT_DIR$/project_name/manage.py" />
+    <entry file="file://$PROJECT_DIR$/project_name/project_name/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/project_name/project_name/models.py" />
+    <entry file="file://$PROJECT_DIR$/project_name/project_name/serializers.py" />
+    <entry file="file://$PROJECT_DIR$/project_name/urls.py" />
+    <entry file="file://$PROJECT_DIR$/project_name/project_name/views.py" />
+    <entry file="file://$PROJECT_DIR$/project_name/project_name/api_urls.py" />
+    <entry file="file://$PROJECT_DIR$/project_name/settings.py" />
+    <entry file="file://$PROJECT_DIR$/project_name/project_name/celery.py" />
+    <entry file="file://$PROJECT_DIR$/project_name/project_name/settings.py" />
+    <entry file="file://$PROJECT_DIR$/project/api/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/project/project/admin.py" />
+    <entry file="file://$PROJECT_DIR$/products/api/tests.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/api/serializers.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/api/tasks.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/api/models.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/api/celery.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/api/apps.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/api/settings.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/manage.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/api/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/api/views.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/api/urls.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.proj_name}}/api/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookiecutter.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1068">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/pika_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/publisher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/subscriber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/messaging/tasks/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.service_name}}/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
